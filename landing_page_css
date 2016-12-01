@@ -1,0 +1,131 @@
+.lp-wr {
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    z-index: 100
+}
+
+header ul.nav li {
+    display: inline-block;
+}
+
+header ul.nav li a {
+    padding: 10px 30px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: color .5s, padding .5s;
+}
+
+header.top ul.nav li a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+header ul.nav li a:hover,
+header ul.nav li.active a {
+    background: none;
+    color: #11a820;
+}
+
+header ul.nav li a:focus {
+    background: none;
+}
+
+.lp-content {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    min-height: 500px;
+    border: 1px dashed red;
+}
+
+.lp-content h2 {
+    color: #11a820;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+@media (max-width: 991px) {
+    .lp-wr {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+
+/* Слайдер */
+
+#slideshow .lp-content {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.lp-slider .owl-item > img {
+    width: 100%;
+}
+
+.lp-slider .owl-buttons > div {
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: #fff;
+    transform: translateY(-50%);
+    opacity: 0.5;
+    transition: opacity 250ms;
+    text-align: center;
+    font-size: 26px;
+    color: #11a820;
+}
+
+.lp-slider .owl-buttons > div > i {
+    margin-top: 6px;
+}
+
+.lp-slider .owl-buttons > div:hover {
+    opacity: 1;
+}
+
+.lp-slider .owl-buttons .owl-prev {
+    left: 20px;
+}
+
+.lp-slider .owl-buttons .owl-next {
+    right: 20px;
+}
+
+.lp-slider .owl-pagination {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+}
+
+.lp-slider .owl-pagination .owl-page {
+    display: inline-block;
+    width: 40px;
+    text-align: center;
+    opacity: 0.75;
+}
+
+.lp-slider .owl-pagination .owl-page span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 100%;
+}
+
+.lp-slider .owl-pagination .owl-page.active span {
+    background: #11a820;
+}
