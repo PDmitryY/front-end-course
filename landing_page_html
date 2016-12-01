@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="lp-wr">
+            <ul class="nav">
+                <li>
+                    <a href="#slideshow">Главная</a>
+                </li>
+                <li>
+                    <a href="#services">Услуги</a>
+                </li>
+                <li>
+                    <a href="#prices">Цены</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Работы</a>
+                </li>
+                <li>
+                    <a href="#contacts">Контакты</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="slideshow" data-offset="40">
+        <div class="lp-wr">
+            <div class="lp-content">
+                <div class="lp-slider lp-slider1">
+                    <img src="img/slideshow/slide1.jpg">
+                    <img src="img/slideshow/slide2.jpg">
+                    <img src="img/slideshow/slide3.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" data-offset="40">
+        <div class="lp-wr">
+            <div class="lp-content">
+                <h2>Наши услуги</h2>
+            </div>
+        </div>
+    </section>
+
+    <section id="prices" data-offset="40">
+        <div class="lp-wr">
+            <div class="lp-content">
+                <h2>Наши цены</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque tempore ea modi, itaque necessitatibus culpa sequi iste nam porro eligendi voluptatibus aperiam eum, facere cupiditate non dolore doloremque unde! Corrupti.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" data-offset="40">
+        <div class="lp-wr">
+            <div class="lp-content">
+                <h2>Наши работы</h2>
+                <div class="lp-slider lp-slider2">
+                    <img src="img/portfolio/work1.jpg">
+                    <img src="img/portfolio/work2.jpg">
+                    <img src="img/portfolio/work3.jpg">
+                    <img src="img/portfolio/work4.jpg">
+                    <img src="img/portfolio/work5.jpg">
+                    <img src="img/portfolio/work1.jpg">
+                    <img src="img/portfolio/work2.jpg">
+                    <img src="img/portfolio/work3.jpg">
+                    <img src="img/portfolio/work4.jpg">
+                    <img src="img/portfolio/work5.jpg">
+                </div>
+                <br>
+                <form>
+                    <p><input id="slide_select" value="введите номер слайда"></p>
+                    <p><input id="slide_show" type="submit" value="вот этот слайд"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts" data-offset="40">
+        <div class="lp-wr">
+            <div class="lp-content">
+                <h2>Контакты</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ipsam accusantium ratione quis illo doloribus magnam illum, quidem soluta repudiandae cumque alias, dicta quas eveniet doloremque nemo maiores iure delectus.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer></footer>
+
+</body>
+
+</html>
