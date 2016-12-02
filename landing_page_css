@@ -3,6 +3,11 @@
     margin: 0 auto;
 }
 
+.big{
+    height: 300px;
+    width: 300px;
+}
+
 header {
     position: fixed;
     left: 0;
