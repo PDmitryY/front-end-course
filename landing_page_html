@@ -71,21 +71,21 @@
             <div class="lp-content">
                 <h2>Наши работы</h2>
                 <div class="lp-slider lp-slider2">
-                    <img src="img/portfolio/work1.jpg">
-                    <img src="img/portfolio/work2.jpg">
-                    <img src="img/portfolio/work3.jpg">
-                    <img src="img/portfolio/work4.jpg">
-                    <img src="img/portfolio/work5.jpg">
-                    <img src="img/portfolio/work1.jpg">
-                    <img src="img/portfolio/work2.jpg">
-                    <img src="img/portfolio/work3.jpg">
-                    <img src="img/portfolio/work4.jpg">
-                    <img src="img/portfolio/work5.jpg">
+                    <img id="1" src="img/portfolio/work1.jpg">
+                    <img id="2" src="img/portfolio/work2.jpg">
+                    <img id="3" src="img/portfolio/work3.jpg">
+                    <img id="4" src="img/portfolio/work4.jpg">
+                    <img id="5" src="img/portfolio/work5.jpg">
+                    <img id="6" src="img/portfolio/work6.jpg">
+                    <img id="7" src="img/portfolio/work7.jpg">
+                    <img id="8" src="img/portfolio/work8.jpg">
+                    <img id="9" src="img/portfolio/work9.jpg">
+                    <img id="10" src="img/portfolio/work10.jpg">
                 </div>
                 <br>
                 <form>
-                    <p><input id="slide_select" value="введите номер слайда"></p>
-                    <p><input id="slide_show" type="submit" value="вот этот слайд"></p>
+                    <p><input id="slide_select" type="text" autocomplete="off" placeholder="Введите номер слайда" value=""></p>
+                    <p><input id="slide_show" type="button" value="вот этот слайд"></p>
                 </form>
             </div>
         </div>
