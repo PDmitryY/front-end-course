@@ -102,9 +102,19 @@
                 console.log('изменение слайда')
                 }
         });
-            var owl = $('.lp-slider2').data('owlCarousel'),
-                slideNum = $('#slide_select').attr('value');
-            $('#slide_show').on('click', owl.goTo(slideNum));
-
+        var slideNum;
+        $('input#slide_select').on('change', function(){
+            var slideNum = +$(this).val();
+            /*console.log(slideNum);*/
+            var owl = $('.lp-slider2');
+        $('input#slide_show').on('click', function(){
+            let n = slideNum;
+            console.log(n);
+            owl.trigger('owl.goTo',[n]);
+            console.log(owl.trigger('owl.goTo',[n]));
+            $('img#'+n).addClass('big');
+        });
+        });
+       
     });
 })(jQuery);
