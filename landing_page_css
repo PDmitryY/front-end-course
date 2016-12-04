@@ -3,11 +3,6 @@
     margin: 0 auto;
 }
 
-.big{
-    height: 300px;
-    width: 300px;
-}
-
 header {
     position: fixed;
     left: 0;
@@ -47,7 +42,6 @@ header ul.nav li a:focus {
 .lp-content {
     padding-top: 40px;
     padding-bottom: 40px;
-    min-height: 500px;
     border: 1px dashed red;
 }
 
@@ -133,4 +127,46 @@ header ul.nav li a:focus {
 
 .lp-slider .owl-pagination .owl-page.active span {
     background: #11a820;
+}
+
+
+/* Табулятор */
+
+.lp-tabs {
+    padding: 20px;
+}
+
+.lp-tabs-titles ul {
+    padding: 0;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.lp-tabs-titles ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    background: #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: color .25s, background-color .25s;
+}
+
+.lp-tabs-titles ul li.active,
+.lp-tabs-titles ul li:hover {
+    background: #11a820;
+    color: #fff;
+}
+
+.lp-tabs-content {
+    position: relative;
+}
+
+.lp-tab {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: none;
 }
