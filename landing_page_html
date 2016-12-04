@@ -53,6 +53,12 @@
         <div class="lp-wr">
             <div class="lp-content">
                 <h2>Наши услуги</h2>
+                <div class="lp-tabs">
+                    <div data-tab-title="Услуга 1">1) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit natus sapiente, ut exercitationem laborum quasi. Atque, ipsam rem reiciendis molestias voluptates, fugiat soluta ipsa quae asperiores consectetur debitis quis blanditiis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore tempore ex molestias, nobis voluptatem velit illum officia doloremque sapiente officiis, reprehenderit illo vitae, eum rem omnis quas odio. Suscipit, debitis?</div>
+                    <div data-tab-title="Услуга 2">2) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quis quae ipsum veniam, voluptatem debitis rerum recusandae quo numquam nisi aut, maiores aliquid sequi repudiandae sapiente officiis earum possimus! Veniam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus at a, debitis iste nesciunt tempore aliquam magni repellat totam est, praesentium corporis esse autem officiis quibusdam voluptatum. Suscipit quibusdam, voluptatem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error itaque repellendus aspernatur minima, asperiores dignissimos vitae placeat tempore aut nostrum neque cum facilis sit veniam amet quia, alias atque, culpa.</div>
+                    <div data-tab-title="Услуга 3">3) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit natus sapiente, ut exercitationem laborum quasi. Atque, ipsam rem reiciendis molestias voluptates, fugiat soluta ipsa quae asperiores consectetur debitis quis blanditiis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, nam architecto ad sequi earum. Esse repellendus, fuga necessitatibus beatae sint, reiciendis excepturi rerum magni ea expedita voluptatibus atque at similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit natus sapiente, ut exercitationem laborum quasi. Atque, ipsam rem reiciendis molestias voluptates, fugiat soluta ipsa quae asperiores consectetur debitis quis blanditiis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, nam architecto ad sequi earum. Esse repellendus, fuga necessitatibus beatae sint, reiciendis excepturi rerum magni ea expedita voluptatibus atque at similique.</div>
+                    <div data-tab-title="Услуга 4">4) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quis quae ipsum veniam, voluptatem debitis rerum recusandae quo numquam nisi aut, maiores aliquid sequi repudiandae sapiente officiis earum possimus! Veniam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus at a, debitis iste nesciunt tempore aliquam magni repellat totam est, praesentium corporis esse autem officiis quibusdam voluptatum. Suscipit quibusdam, voluptatem.</div>
+                </div>
             </div>
         </div>
     </section>
@@ -71,22 +77,17 @@
             <div class="lp-content">
                 <h2>Наши работы</h2>
                 <div class="lp-slider lp-slider2">
-                    <img id="1" src="img/portfolio/work1.jpg">
-                    <img id="2" src="img/portfolio/work2.jpg">
-                    <img id="3" src="img/portfolio/work3.jpg">
-                    <img id="4" src="img/portfolio/work4.jpg">
-                    <img id="5" src="img/portfolio/work5.jpg">
-                    <img id="6" src="img/portfolio/work6.jpg">
-                    <img id="7" src="img/portfolio/work7.jpg">
-                    <img id="8" src="img/portfolio/work8.jpg">
-                    <img id="9" src="img/portfolio/work9.jpg">
-                    <img id="10" src="img/portfolio/work10.jpg">
+                    <img src="img/portfolio/work1.jpg">
+                    <img src="img/portfolio/work2.jpg">
+                    <img src="img/portfolio/work3.jpg">
+                    <img src="img/portfolio/work4.jpg">
+                    <img src="img/portfolio/work5.jpg">
+                    <img src="img/portfolio/work1.jpg">
+                    <img src="img/portfolio/work2.jpg">
+                    <img src="img/portfolio/work3.jpg">
+                    <img src="img/portfolio/work4.jpg">
+                    <img src="img/portfolio/work5.jpg">
                 </div>
-                <br>
-                <form>
-                    <p><input id="slide_select" type="text" autocomplete="off" placeholder="Введите номер слайда" value=""></p>
-                    <p><input id="slide_show" type="button" value="вот этот слайд"></p>
-                </form>
             </div>
         </div>
     </section>
