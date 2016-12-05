@@ -108,8 +108,6 @@
             tabs.wrapInner('<div class="lp-tabs-content"></div>');
             // В начало корневого div добавляем div с классом "lp-tabs-titles" и списком внутри
             tabs.prepend('<div class="lp-tabs-titles"><ul></ul></div>');
-            // В конец корневого div добавляем div с классом "lp-tabs-footer"
-            tabs.append('<br><div class="lp-tabs-footer">Активная вкладка</div>');
             // Помещаем в переменные:
             var tabsTitles = tabs.find('.lp-tabs-titles'), // Div c заголовками вкладок
                 tabsContent = tabs.find('.lp-tabs-content'), // Div с содержимым вкладок
@@ -117,7 +115,6 @@
             // Добавляем заголовки вкладок
             tabsTitlesNames.forEach(function (value) {
                 tabsTitles.find('ul').append('<li>' + value + '</li>');
-                
             });
             // Помещаем в переменную набор заголовков вкладок
             var tabsTitlesItems = tabsTitles.find('ul li');
@@ -127,8 +124,8 @@
             tabsContentTabs.eq(0).addClass('active').show();
             // Устанавливаем высоту div с содержимым вкладок равной высоте первой вкладки
             tabsContent.height(tabsContent.find('.active').outerHeight());
-            // При наведении на заголовок вкладки
-            tabsTitlesItems.on('mouseenter', function () {
+            // По клику на заголовке вкладки
+            tabsTitlesItems.on('click', function () {
                 // Проверяем, не находится ли табулятор в переходном состоянии
                 if (!tabs.hasClass('changing')) {
                     // Если нет, то добавляем класс "changing", обозначающий переходное состояние
@@ -138,7 +135,7 @@
                         nextTab = tabsContentTabs.eq($(this).index()); // Следующую вкладку
                     // Убираем класс "active" у активного заголовка
                     tabsTitles.find('.active').removeClass('active');
-                    // Добавляем класс "active" заголовку, на который навели курсор
+                    // Добавляем класс "active" заголовку, по которому кликнули
                     $(this).addClass('active');
                     // Помещаем в переменную текущую высоту контента
                     var curHeight = curTab.outerHeight();
@@ -176,12 +173,9 @@
                             tabs.removeClass('changing');
                         });
                     });
-                    //заполнение div с классом "lp-tabs-footer"
-                    var act = $(this).html();
-                    tabs.find('.lp-tabs-footer').html('Активная вкладка: ' + act + ' (' + (tabsTitles.find('.active').index()+1) +' из ' + tabsTitlesNames.length + ')');
+
                 }
             });
-            
             // При изменении размера окна
             $(window).on('resize', function () {
                 // Устанавливаем высоту div с содержимым вкладок равной высоте активной вкладки
@@ -189,5 +183,28 @@
             });
         });
 
+        /* Всплывающие окна */
+
+        $('.lp-mfp-inline').magnificPopup({
+            items:{
+                src: 'page1.html',
+                type: 'ajax',
+            },
+            type: 'inline',
+            
+        });
+
+        $('.lp-gallery').each(function () {
+            $(this).magnificPopup({
+                delegate: 'a',
+                type: 'image',
+                gallery: {
+                    enabled: true
+                }
+            });
+        });
+        $('.video').magnificPopup({
+            type: 'iframe'
+        });
     });
 })(jQuery);
