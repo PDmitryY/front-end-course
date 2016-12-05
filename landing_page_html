@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/script.js"></script>
 </head>
 
@@ -54,10 +56,58 @@
             <div class="lp-content">
                 <h2>Наши услуги</h2>
                 <div class="lp-tabs">
-                    <div data-tab-title="Услуга 1">1) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit natus sapiente, ut exercitationem laborum quasi. Atque, ipsam rem reiciendis molestias voluptates, fugiat soluta ipsa quae asperiores consectetur debitis quis blanditiis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore tempore ex molestias, nobis voluptatem velit illum officia doloremque sapiente officiis, reprehenderit illo vitae, eum rem omnis quas odio. Suscipit, debitis?</div>
-                    <div data-tab-title="Услуга 2">2) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quis quae ipsum veniam, voluptatem debitis rerum recusandae quo numquam nisi aut, maiores aliquid sequi repudiandae sapiente officiis earum possimus! Veniam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus at a, debitis iste nesciunt tempore aliquam magni repellat totam est, praesentium corporis esse autem officiis quibusdam voluptatum. Suscipit quibusdam, voluptatem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error itaque repellendus aspernatur minima, asperiores dignissimos vitae placeat tempore aut nostrum neque cum facilis sit veniam amet quia, alias atque, culpa.</div>
-                    <div data-tab-title="Услуга 3">3) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit natus sapiente, ut exercitationem laborum quasi. Atque, ipsam rem reiciendis molestias voluptates, fugiat soluta ipsa quae asperiores consectetur debitis quis blanditiis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, nam architecto ad sequi earum. Esse repellendus, fuga necessitatibus beatae sint, reiciendis excepturi rerum magni ea expedita voluptatibus atque at similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit natus sapiente, ut exercitationem laborum quasi. Atque, ipsam rem reiciendis molestias voluptates, fugiat soluta ipsa quae asperiores consectetur debitis quis blanditiis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, nam architecto ad sequi earum. Esse repellendus, fuga necessitatibus beatae sint, reiciendis excepturi rerum magni ea expedita voluptatibus atque at similique.</div>
-                    <div data-tab-title="Услуга 4">4) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quis quae ipsum veniam, voluptatem debitis rerum recusandae quo numquam nisi aut, maiores aliquid sequi repudiandae sapiente officiis earum possimus! Veniam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus at a, debitis iste nesciunt tempore aliquam magni repellat totam est, praesentium corporis esse autem officiis quibusdam voluptatum. Suscipit quibusdam, voluptatem.</div>
+                    <div data-tab-title="Услуга 1">
+                        <p>1) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit natus sapiente, ut exercitationem laborum quasi. Atque, ipsam rem reiciendis molestias voluptates, fugiat soluta ipsa quae asperiores consectetur debitis quis blanditiis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore tempore ex molestias, nobis voluptatem velit illum officia doloremque sapiente officiis, reprehenderit illo vitae, eum rem omnis quas odio. Suscipit, debitis?</p>
+                        <p class="ac"><a href="#lp-service1" class="lp-btn lp-mfp-inline">Подробнее...</a></p>
+                    </div>
+                    <div data-tab-title="Услуга 2">
+                        <p>2) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quis quae ipsum veniam, voluptatem debitis rerum recusandae quo numquam nisi aut, maiores aliquid sequi repudiandae sapiente officiis earum possimus! Veniam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus at a, debitis iste nesciunt tempore aliquam magni repellat totam est, praesentium corporis esse autem officiis quibusdam voluptatum. Suscipit quibusdam, voluptatem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error itaque repellendus aspernatur minima, asperiores dignissimos vitae placeat tempore aut nostrum neque cum facilis sit veniam amet quia, alias atque, culpa.</p>
+                        <p class="ac"><a href="#lp-service2" class="lp-btn lp-mfp-inline">Подробнее...</a></p>
+                    </div>
+                    <div data-tab-title="Услуга 3">
+                        <p>3) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit natus sapiente, ut exercitationem laborum quasi. Atque, ipsam rem reiciendis molestias voluptates, fugiat soluta ipsa quae asperiores consectetur debitis quis blanditiis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, nam architecto ad sequi earum. Esse repellendus, fuga necessitatibus beatae sint, reiciendis excepturi rerum magni ea expedita voluptatibus atque at similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit natus sapiente, ut exercitationem laborum quasi. Atque, ipsam rem reiciendis molestias voluptates, fugiat soluta ipsa quae asperiores consectetur debitis quis blanditiis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, nam architecto ad sequi earum. Esse repellendus, fuga necessitatibus beatae sint, reiciendis excepturi rerum magni ea expedita voluptatibus atque at similique.</p>
+                        <p class="ac"><a href="#lp-service3" class="lp-btn lp-mfp-inline">Подробнее...</a></p>
+                    </div>
+                    <div data-tab-title="Услуга 4">
+                        <p>4) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quis quae ipsum veniam, voluptatem debitis rerum recusandae quo numquam nisi aut, maiores aliquid sequi repudiandae sapiente officiis earum possimus! Veniam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus at a, debitis iste nesciunt tempore aliquam magni repellat totam est, praesentium corporis esse autem officiis quibusdam voluptatum. Suscipit quibusdam, voluptatem.</p>
+                        <p class="ac"><a href="#lp-service4" class="lp-btn lp-mfp-inline">Подробнее...</a></p>
+                    </div>
+                </div>
+                <div class="lp-services-modals">
+                    <div id="lp-service1" class="lp-modal">
+                        <h2>Описание услуги №1</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error ipsa qui, earum, voluptatem iste quia quae non quisquam cupiditate perspiciatis velit fugit esse, expedita, officiis nisi corrupti similique quaerat rem!</p>
+                        <h3>Преимущества услуги №1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nam, possimus vel eaque voluptates nemo praesentium iure! Id harum repellat itaque hic, architecto sequi quisquam aperiam quam, explicabo minima officiis.</p>
+                    </div>
+                    <div id="lp-service2" class="lp-modal">
+                        <h2>Описание услуги №2</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error ipsa qui, earum, voluptatem iste quia quae non quisquam cupiditate perspiciatis velit fugit esse, expedita, officiis nisi corrupti similique quaerat rem!</p>
+                        <h3>Преимущества услуги №2</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nam, possimus vel eaque voluptates nemo praesentium iure! Id harum repellat itaque hic, architecto sequi quisquam aperiam quam, explicabo minima officiis.</p>
+                    </div>
+                    <div id="lp-service3" class="lp-modal">
+                        <h2>Описание услуги №3</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error ipsa qui, earum, voluptatem iste quia quae non quisquam cupiditate perspiciatis velit fugit esse, expedita, officiis nisi corrupti similique quaerat rem!</p>
+                        <h3>Преимущества услуги №3</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nam, possimus vel eaque voluptates nemo praesentium iure! Id harum repellat itaque hic, architecto sequi quisquam aperiam quam, explicabo minima officiis.</p>
+                    </div>
+                    <div id="lp-service4" class="lp-modal">
+                        <h2>Описание услуги №3</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error ipsa qui, earum, voluptatem iste quia quae non quisquam cupiditate perspiciatis velit fugit esse, expedita, officiis nisi corrupti similique quaerat rem!</p>
+                        <h3>Преимущества услуги №3</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nam, possimus vel eaque voluptates nemo praesentium iure! Id harum repellat itaque hic, architecto sequi quisquam aperiam quam, explicabo minima officiis.</p>
+                    </div>
+                </div>
+                <div>
+                    <p class="ac"><a href="page1.html" class="lp-btn lp-mfp-inline">Кнопка задания1</a></p>
+                </div>
+                <div><p class="ac"><a class="lp-btn lp-mfp-inline" class = "video" href="https://www.youtube.com/watch?v=pAgnJDJN4VA">Кнопка задания2</a></p></div>
+                <div class="task 9.3">
+                    <p class="ac"><a href="page1.html" class="lp-btn lp-mfp-inline">Кнопка задания 3.1</a></p>
+                    <p class="ac"><a href="page1.html" class="lp-btn lp-mfp-inline">Кнопка задания 3.2</a></p>
+                    <p class="ac"><a href="page1.html" class="lp-btn lp-mfp-inline">Кнопка задания 3.3</a></p>
+                    <p class="ac"><a href="page1.html" class="lp-btn lp-mfp-inline">Кнопка задания 3.4</a></p>
                 </div>
             </div>
         </div>
@@ -76,17 +126,37 @@
         <div class="lp-wr">
             <div class="lp-content">
                 <h2>Наши работы</h2>
-                <div class="lp-slider lp-slider2">
-                    <img src="img/portfolio/work1.jpg">
-                    <img src="img/portfolio/work2.jpg">
-                    <img src="img/portfolio/work3.jpg">
-                    <img src="img/portfolio/work4.jpg">
-                    <img src="img/portfolio/work5.jpg">
-                    <img src="img/portfolio/work1.jpg">
-                    <img src="img/portfolio/work2.jpg">
-                    <img src="img/portfolio/work3.jpg">
-                    <img src="img/portfolio/work4.jpg">
-                    <img src="img/portfolio/work5.jpg">
+                <div class="lp-slider lp-slider2 lp-gallery">
+                    <a href="img/portfolio/work1.jpg">
+                        <img src="img/portfolio/work1.jpg">
+                    </a>
+                    <a href="img/portfolio/work2.jpg">
+                        <img src="img/portfolio/work2.jpg">
+                    </a>
+                    <a href="img/portfolio/work3.jpg">
+                        <img src="img/portfolio/work3.jpg">
+                    </a>
+                    <a href="img/portfolio/work4.jpg">
+                        <img src="img/portfolio/work4.jpg">
+                    </a>
+                    <a href="img/portfolio/work5.jpg">
+                        <img src="img/portfolio/work5.jpg">
+                    </a>
+                    <a href="img/portfolio/work1.jpg">
+                        <img src="img/portfolio/work1.jpg">
+                    </a>
+                    <a href="img/portfolio/work2.jpg">
+                        <img src="img/portfolio/work2.jpg">
+                    </a>
+                    <a href="img/portfolio/work3.jpg">
+                        <img src="img/portfolio/work3.jpg">
+                    </a>
+                    <a href="img/portfolio/work4.jpg">
+                        <img src="img/portfolio/work4.jpg">
+                    </a>
+                    <a href="img/portfolio/work5.jpg">
+                        <img src="img/portfolio/work5.jpg">
+                    </a>
                 </div>
             </div>
         </div>
