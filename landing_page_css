@@ -3,6 +3,39 @@
     margin: 0 auto;
 }
 
+.ac {
+    text-align: center;
+}
+
+.al {
+    text-align: left;
+}
+
+.ar {
+    text-align: right;
+}
+
+.lp-btn,
+.lp-btn:focus {
+    display: inline-block;
+    padding: 7px 15px;
+    margin: 5px;
+    border-radius: 3px;
+    color: #11a820;
+    border: 2px solid #11a820;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color .25s, background-color .25s
+}
+
+.lp-btn:hover {
+    color: #fff;
+    background: #11a820;
+    text-decoration: none;
+}
+
 header {
     position: fixed;
     left: 0;
@@ -68,7 +101,7 @@ header ul.nav li a:focus {
     padding-bottom: 0;
 }
 
-.lp-slider .owl-item > img {
+.lp-slider .owl-item img {
     width: 100%;
 }
 
@@ -169,4 +202,24 @@ header ul.nav li a:focus {
     top: 0;
     width: 100%;
     display: none;
+}
+
+
+/* Всплывающие окна */
+
+.lp-services-modals {
+    display: none;
+}
+
+.lp-modal {
+    position: relative;
+    background: #FFF;
+    padding: 20px;
+    width: auto;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.lp-gallery a {
+    display: inline-block;
 }
