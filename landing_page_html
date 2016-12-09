@@ -73,6 +73,17 @@
                         <p class="ac"><a href="#lp-service4" class="lp-btn lp-mfp-inline">Подробнее...</a></p>
                     </div>
                 </div>
+                <div>
+                     <p class="ac"><a href="page1.html" class="lp-btn lp-mfp-ajax">Page1</a></p>
+                     <p class="ac"><a href="https://www.youtube.com/watch?v=mr9Bx4IDwU4" class="lp-btn lp-mfp-iframe">Youtube</a></p>
+                </div>
+                <div class="lp-mfp-inline_9_3">
+                     <p class="ac" style="display: inline-block"><a href="#task_9_3" class="lp-btn">Купить</a></p>
+                     <p class="ac" style="display: inline-block"><a href="#task_9_3" class="lp-btn">Заказать</a></p>
+                     <p class="ac" style="display: inline-block"><a href="#task_9_3" class="lp-btn">Оформить</a></p>
+                     <p class="ac" style="display: inline-block"><a href="#task_9_3" class="lp-btn">Отправить</a></p>
+                </div>
+                <button id="lp-mfp-galery_9_4" class="lp-btn">Galery</button>
                 <div class="lp-services-modals">
                     <div id="lp-service1" class="lp-modal">
                         <h2>Описание услуги №1</h2>
@@ -98,16 +109,12 @@
                         <h3>Преимущества услуги №3</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nam, possimus vel eaque voluptates nemo praesentium iure! Id harum repellat itaque hic, architecto sequi quisquam aperiam quam, explicabo minima officiis.</p>
                     </div>
-                </div>
-                <div>
-                    <p class="ac"><a href="page1.html" class="lp-btn lp-mfp-inline">Кнопка задания1</a></p>
-                </div>
-                <div><p class="ac"><a class="lp-btn lp-mfp-inline" class = "video" href="https://www.youtube.com/watch?v=pAgnJDJN4VA">Кнопка задания2</a></p></div>
-                <div class="task 9.3">
-                    <p class="ac"><a href="page1.html" class="lp-btn lp-mfp-inline">Кнопка задания 3.1</a></p>
-                    <p class="ac"><a href="page1.html" class="lp-btn lp-mfp-inline">Кнопка задания 3.2</a></p>
-                    <p class="ac"><a href="page1.html" class="lp-btn lp-mfp-inline">Кнопка задания 3.3</a></p>
-                    <p class="ac"><a href="page1.html" class="lp-btn lp-mfp-inline">Кнопка задания 3.4</a></p>
+                    <div id="task_9_3" class="lp-modal">
+                        <h2>Кнопка</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error ipsa qui, earum, voluptatem iste quia quae non quisquam cupiditate perspiciatis velit fugit esse, expedita, officiis nisi corrupti similique quaerat rem!</p>
+                        <h3>Преимущества вашего выбора</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nam, possimus vel eaque voluptates nemo praesentium iure! Id harum repellat itaque hic, architecto sequi quisquam aperiam quam, explicabo minima officiis.</p>
+                    </div>
                 </div>
             </div>
         </div>
