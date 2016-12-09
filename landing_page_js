@@ -186,13 +186,49 @@
         /* Всплывающие окна */
 
         $('.lp-mfp-inline').magnificPopup({
-            items:{
-                src: 'page1.html',
-                type: 'ajax',
-            },
-            type: 'inline',
-            
+            type: 'inline'
         });
+        
+        $('.lp-mfp-ajax').magnificPopup({
+           type: 'ajax' 
+        });
+        
+        $('.lp-mfp-iframe').magnificPopup({
+           type: 'iframe' 
+        });
+        
+        $('.lp-mfp-inline_9_3').each(function(){
+            var i = $(this);
+            $(this).magnificPopup({
+                delegate: 'a',
+                type: 'inline',
+                callbacks: {
+                    open: function(){
+                         $('#task_9_3').find('h2').text(i);
+                    }
+                }
+            });
+        });
+        
+        $('#lp-mfp-galery_9_4').magnificPopup({
+                items: [
+                    {
+                        src: 'page1.html',
+                        type: 'ajax'
+                    },
+                    {
+                        src: 'https://www.youtube.com/watch?v=mr9Bx4IDwU4',
+                        type: 'iframe'
+                    },
+                    {
+                        src: 'https://www.youtube.com/watch?v=Xb2fJYOdysE',
+                        type: 'iframe'
+                    },
+                ],
+                gallery: {
+                    enabled: true
+                }
+            });
 
         $('.lp-gallery').each(function () {
             $(this).magnificPopup({
@@ -203,8 +239,6 @@
                 }
             });
         });
-        $('.video').magnificPopup({
-            type: 'iframe'
-        });
+
     });
 })(jQuery);
